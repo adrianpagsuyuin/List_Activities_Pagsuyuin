@@ -49,19 +49,19 @@ print("\n#Activity 7: For Loop")
 animals = ["dog", "cat", "bird"]
 
 for x in animals:
-    print(x)
+    print(x) #kapag walang indention mag eerror result siya
 
 print("\n#Activity 8: With Index")
 numbers = [10, 20, 30]
 
 for index, value in enumerate(numbers):
-    print(index, ":", value)
+    print(index, ":", value) #kapag walang indention mag eerror result siya
 
 print("\n#Activity 9: Check if Item Exists")
 fruits = ["apple", "banana", "cherry"]
 
 if "banana" in fruits:
-    print("Yes, banana is in the list")
+    print("Yes, banana is in the list") #kapag walang indention mag eerror result siya
 
 print("\nActivity 10: Sorting")
 numbers = [5, 2, 9, 1]
